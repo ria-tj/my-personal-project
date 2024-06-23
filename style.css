@@ -1,3 +1,45 @@
+
+*{
+
+    margin: 10;
+    padding: 0.2%;
+}
 body{
-    background-color: aqua;
+    background-image:url(https://media.istockphoto.com/id/1447087371/photo/modern-abstract-dark-gray-background.jpg?s=2048x2048&w=is&k=20&c=CXhuom6B-q_wJHKQAfjTpETMyjTWbrt41b3HqmpY0NA=);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: antiquewhite;
+}
+#heading h1{
+    text-align:center;
+    font-size: larger;
+    font-family: cursive;
+
+}
+.nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+nav button{
+    display: inline-block;
+    padding: 10px;
+    justify-content: space-between;
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+
+.container{
+    text-align: center;
+    
+}
+img{ position: relative;
+    display: flex;
+    width: 800px;
+    height: 500px;
 }
